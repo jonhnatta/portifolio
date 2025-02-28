@@ -60,7 +60,7 @@ export function Navbar() {
           </div>
           <ThemeToggle />
           <Button asChild variant="outline">
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/jonhnatta" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
               GitHub
             </Link>
