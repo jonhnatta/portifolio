@@ -17,7 +17,7 @@ export function ProjectsSection() {
                 technologies: [
                     "Kafka",
                     "Python",
-                    "Flash",
+                    "Flask",
                     "Docker",
                     "AWS Lambda",
                 ],
@@ -79,7 +79,7 @@ export function ProjectsSection() {
                 technologies: [
                     "Kafka",
                     "Python",
-                    "Flash",
+                    "Flask",
                     "Docker",
                     "AWS Lambda",
                 ],
