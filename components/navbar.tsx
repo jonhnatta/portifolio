@@ -35,7 +35,7 @@ export function Navbar() {
             {language === 'en' ? 'Projects' : 'Projetos'}
           </Link>
           <Link href="#skills" className="text-foreground/80 hover:text-primary">
-            {language === 'en' ? 'Skillss' : 'Habilidades'}
+            {language === 'en' ? 'Skills' : 'Habilidades'}
           </Link>
           <Link href="#contact" className="text-foreground/80 hover:text-primary">
             {language === 'en' ? 'Contact' : 'Contato'}
