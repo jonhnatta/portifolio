@@ -2,7 +2,7 @@ import { Profile, Project } from "@/types";
 
 export const profileData: Profile = {
   name: "Jonhnatta Augusto",
-  bio: "Engenheiro de Dados com base técnica, experiência em Inteligência Artificial, gestão de equipes e visão de negócio, focado em transformar dados para impulsionar o crescimento das empresas.",
+  bio: "Engenheiro de Dados com background em Infraestrutura, experiência em Inteligência Artificial, gestão de equipes e visão de negócio, focado em transformar dados para impulsionar o crescimento das empresas.",
   avatarUrl: "/jonhnatta.jpg",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/jonhnatta/",
@@ -12,6 +12,12 @@ export const profileData: Profile = {
 };
 
 export const projectsData: Project[] = [
+  {
+    title: "Invoice Pipeline",
+    description: "Pipeline de Engenharia de Dados para extração estruturada de informações de Notas Fiscais (PDFs e Imagens) utilizando Inteligência Artificial Generativa.",
+    imageUrl: "/pipeline_ia.png",
+    githubUrl: "https://github.com/jonhnatta/invoice-ia-pipeline"
+  },
   {
     title: "ETL Facebook Ads",
     description: "Projeto para extração de dados de campanhas do Facebook Ads. O script obtém informações das campanhas ativas via API do Facebook e armazena os resultados em um banco de dados PostgreSQL.",
